@@ -28,7 +28,7 @@ def search():
     global response
     # getting api response
     url = 'https://api.openweathermap.org/data/2.5/weather'
-    api_key = '9de1b4068d42416de364a731336d3fa4'  # '6da92ea5e09090fa9c8a08e08eb30284'
+    api_key = '##########################'  # '6da92ea5e09090fa9c8a08e08eb30284'
     # Search by the appropriate query, either city name or zip
     if search_method.get() == 1:
         querystring = {"q": city_entry.get(), 'appid': api_key, 'units': 'metric'}
